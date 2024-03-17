@@ -1,0 +1,24 @@
+{
+    "name": "severe_headache/otus_ha_counters",
+    "autoload": {
+        "psr-4": {
+            "SevereHeadache\\OtusHaCounters\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.2.0",
+        "klein/klein": "3.0.0",
+        "vlucas/phpdotenv": "^5.5",
+        "php-amqplib/php-amqplib": "^3.6"
+    },
+    "require-dev": {
+        "codeception/codeception": "^5.0",
+        "codeception/module-phpbrowser": "*",
+        "codeception/module-asserts": "*",
+        "fakerphp/faker": "^1.23",
+        "codeception/module-rest": "^3.3"
+    },
+    "repositories": [
+        { "name": "klein/klein", "type": "vcs", "url": "https://github.com/ZemEr1001/klein.php" }
+    ]
+}
